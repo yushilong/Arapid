@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+      android:icon="@drawable/menu_icon_explore"
+      android:title="explore"
+      app:showAsAction="always"
+      android:id="@+id/menu_explore"/>
+
+  <item
+      android:icon="@drawable/menu_icon_set"
+      android:title="set"
+      app:showAsAction="always"
+      android:id="@+id/menu_set">
+    <menu>
+      <item
+          android:icon="@drawable/menu_icon_my"
+          android:title="my"
+          app:showAsAction="always"
+          android:id="@+id/menu_my"/>
+      <item
+          android:icon="@drawable/menu_icon_qiut"
+          android:title="qiut"
+          app:showAsAction="always"
+          android:id="@+id/menu_qiut">
+        <menu>
+          <item
+              android:icon="@drawable/menu_icon_shark"
+              android:title="shark"
+              app:showAsAction="always"/>
+          <item
+              android:icon="@drawable/menu_icon_shark"
+              android:title="shark"
+              app:showAsAction="always"/>
+        </menu>
+      </item>
+      <item
+          android:icon="@drawable/menu_icon_shark"
+          android:title="shark"
+          app:showAsAction="always"
+          android:id="@+id/menu_shark"/>
+    </menu>
+  </item>
+
+  <item
+      android:icon="@drawable/menu_icon_language"
+      android:title="language"
+      app:showAsAction="ifRoom"
+      android:id="@+id/menu_language"/>
+
+  <item
+      android:icon="@drawable/menu_icon_notice"
+      android:title="notice"
+      app:showAsAction="ifRoom"
+      android:id="@+id/menu_notice"/>
+</menu>

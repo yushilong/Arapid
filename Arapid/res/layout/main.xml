@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:circle="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:background="?attr/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:title="this is title"
+            app:subtitle="this is subtitle"
+            app:popupTheme="@style/toolbarPopup"/>
+
+    <android.support.v4.widget.DrawerLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/drawer">
+        <!--界面内容-->
+        <FrameLayout
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/material_blue_grey_800">
+            <com.arapid.widget.CircleImageView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/hugh"
+                    circle:border_width="2dp"
+                    circle:border_color="@android:color/holo_blue_light"/>
+        </FrameLayout>
+        <!--菜单-->
+        <FrameLayout
+                android:id="@+id/menu"
+                android:layout_width="260dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:background="#343636"
+                android:orientation="vertical">
+        </FrameLayout>
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>

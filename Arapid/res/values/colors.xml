@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- 菜单layout item颜色 -->
+  <color name="menu_layout_default">#363636</color>
+  <color name="menu_layout_item_pressed_color">#252525</color>
+  <color name="color_54514C">#54514C</color>
+  <color name="color_cccccc">#CCCCCC</color>
+  <color name="color_D2D3D5">#D2D3D5</color>
+</resources>
