@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Arapid/Arapid.iml" filepath="$PROJECT_DIR$/Arapid/Arapid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DaoExampleGenerator/DaoExampleGenerator.iml" filepath="$PROJECT_DIR$/DaoExampleGenerator/DaoExampleGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NiftyDialogEffectsLib/NiftyDialogEffectsLib.iml" filepath="$PROJECT_DIR$/NiftyDialogEffectsLib/NiftyDialogEffectsLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/appcompat/appcompat.iml" filepath="$PROJECT_DIR$/appcompat/appcompat.iml" />
     </modules>
   </component>
