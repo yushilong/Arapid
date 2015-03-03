@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">Arapid</string>
-    <string name="menu_open">打开</string>
-    <string name="menu_close">关闭</string>
-    <string name="error_network">网络故障，请稍后重试</string>
-    <string name="error_datafetch">数据获取失败，请稍后重试</string>
-</resources>

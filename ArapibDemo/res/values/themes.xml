@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="MainAppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowNoTitle">true</item>
+    <!-- android:textColorPrimary is the  color of the title text
+     in the Toolbar, in the Theme.AppCompat theme:  -->
+    <item name="android:textColorPrimary">@android:color/white</item>
+
+    <!-- android:textColorSecondary is the color of the menu
+         overflow icon (three vertical dots) -->
+    <item name="android:textColorSecondary">@android:color/white</item>
+
+    <!-- toolbar（actionbar）颜色 -->
+    <item name="colorPrimary">#EA5246</item>
+
+    <!--actionbar title color-->
+    <!--<item name="android:textColorPrimary">@android:color/white</item>-->
+    <item name="drawerArrowStyle">@style/MyDrawerArrowStyle</item>
+  </style>
+
+
+  <!--自定义 navigation drarwer 的样式-->
+  <style name="MyDrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+    <item name="spinBars">false</item>
+    <item name="color">@android:color/white</item>
+  </style>
+
+  <style name="toolbarPopup">
+    <item name="android:background">@android:color/transparent</item>
+    <item name="android:itemBackground">@drawable/toolbarpopup</item>
+  </style>
+
+</resources>

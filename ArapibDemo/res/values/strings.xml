@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Arapid</string>
+    <string name="menu_open">打开</string>
+    <string name="menu_close">关闭</string>
+</resources>

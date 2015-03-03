@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="universal-image-loader-1.9.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ArapidLib/libs/universal-image-loader-1.9.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ArapidLib/libs/android-async-http-1.4.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
