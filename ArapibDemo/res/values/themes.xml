@@ -19,7 +19,6 @@
     <item name="drawerArrowStyle">@style/MyDrawerArrowStyle</item>
   </style>
 
-
   <!--自定义 navigation drarwer 的样式-->
   <style name="MyDrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
     <item name="spinBars">false</item>
