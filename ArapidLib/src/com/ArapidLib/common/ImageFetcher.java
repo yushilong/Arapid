@@ -2,6 +2,7 @@ package com.ArapidLib.common;
 
 import android.graphics.Bitmap;
 import android.widget.ImageView;
+import com.ArapidLib.R;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.assist.ImageScaleType;
@@ -14,8 +15,8 @@ import com.nostra13.universalimageloader.core.display.RoundedBitmapDisplayer;
 public class ImageFetcher {
     public static final int IMAGE_DEFAULT_SIZE = 500;
     public static final int IMAGE_DEFAULT_ROUND = 10;
-    public static final int IMAGE_DEFAULT_LOADING_RESID = 0;
-    public static final int IMAGE_DEFAULT_LOADING_FAIL_RESID = 0;
+    public static final int IMAGE_DEFAULT_LOADING_RESID = R.drawable.ic_launcher;
+    public static final int IMAGE_DEFAULT_LOADING_FAIL_RESID = R.drawable.ic_launcher;
 
     public static DisplayImageOptions.Builder getBuilder() {
         DisplayImageOptions.Builder builder = new DisplayImageOptions.Builder();
