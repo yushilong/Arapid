@@ -2,7 +2,7 @@ package com.ArapidLib.http;
 
 import android.content.Context;
 import com.ArapidLib.ArapidLibApplication;
-import com.ArapidLib.common.StringUtil;
+import com.ArapidLib.common.StringUtils;
 
 import java.io.*;
 
@@ -63,7 +63,7 @@ public class CacheManager {
      * @throws java.io.IOException
      */
     public boolean saveObject(Object object, String file) {
-        file = StringUtil.md5(file);
+        file = StringUtils.md5(file);
         FileOutputStream fos = null;
         ObjectOutputStream oos = null;
         try {
@@ -95,7 +95,7 @@ public class CacheManager {
      * @throws java.io.IOException
      */
     public Object readObject(String file) {
-        file = StringUtil.md5(file);
+        file = StringUtils.md5(file);
         if (!isExistDataCache(file) || isCacheDataFailure(file))
             return null;
         FileInputStream fis = null;

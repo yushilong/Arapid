@@ -21,5 +21,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="universal-image-loader-1.9.3" level="project" />
     <orderEntry type="library" name="joda-time-2.7" level="project" />
+    <orderEntry type="library" name="libs2" level="project" />
+    <orderEntry type="library" name="libs1" level="project" />
   </component>
 </module>
