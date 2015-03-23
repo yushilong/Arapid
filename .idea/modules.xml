@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ArapibDemo/ArapidDemo.iml" filepath="$PROJECT_DIR$/ArapibDemo/ArapidDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArapidDemo/ArapidDemo.iml" filepath="$PROJECT_DIR$/ArapidDemo/ArapidDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ArapidLib/ArapidLib.iml" filepath="$PROJECT_DIR$/ArapidLib/ArapidLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/DaoExampleGenerator/DaoExampleGenerator.iml" filepath="$PROJECT_DIR$/DaoExampleGenerator/DaoExampleGenerator.iml" />
       <module fileurl="file://$PROJECT_DIR$/NiftyDialogEffectsLib/NiftyDialogEffectsLib.iml" filepath="$PROJECT_DIR$/NiftyDialogEffectsLib/NiftyDialogEffectsLib.iml" />

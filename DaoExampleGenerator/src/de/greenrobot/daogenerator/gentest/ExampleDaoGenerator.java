@@ -36,7 +36,7 @@ public class ExampleDaoGenerator {
         addNote(schema);
         addCustomerOrder(schema);
 
-        new DaoGenerator().generateAll(schema, "../arapid/Arapid/src-gen");
+        new DaoGenerator().generateAll(schema, "../arapid/ArapidDemo/src-gen");
     }
 
     private static void addNote(Schema schema) {
